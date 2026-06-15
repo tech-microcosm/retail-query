@@ -1,0 +1,39 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Model weights & caches
+weights/
+*.pth
+*.pt
+*.ckpt
+~/.cache/huggingface/
+.cache/
+
+# Environment / secrets
+.env
+.env.*
+*.env
+
+# Generic output file
+output.jpg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Zone identifier files (Windows WSL artifact)
+*.jpg:Zone.Identifier
+*.png:Zone.Identifier
+
+# IDE
+.idea/
+.vscode/
+*.swp

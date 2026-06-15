@@ -1,0 +1,25 @@
+# Core ML / Vision
+torch>=2.1.0
+torchvision>=0.16.0
+transformers>=4.40.0
+Pillow>=10.0.0
+
+# Open-vocabulary detection
+# OWL-ViT ships inside transformers — no extra package needed
+
+# OCR
+easyocr>=1.7.1
+
+# Text similarity
+# difflib is part of the Python stdlib — no install needed
+# sentence-transformers is optional for heavier semantic matching
+sentence-transformers>=2.2.2
+
+# Image annotation / drawing
+opencv-python-headless>=4.8.0
+
+# Utilities
+numpy>=1.24.0
+
+# SAHI for sliced inference (small object detection)
+sahi>=0.11.0
